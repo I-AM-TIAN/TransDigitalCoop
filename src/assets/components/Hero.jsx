@@ -33,7 +33,7 @@ function Header() {
           <div className="right-section">
             <h2>¿Quieres que te contactemos?</h2>
             <form>
-              <div class="form-group">
+              <div className="form-group">
                 <input type="text" placeholder="Nombre" required />
                 <input type="text" placeholder="Apellido" required />
               </div>
