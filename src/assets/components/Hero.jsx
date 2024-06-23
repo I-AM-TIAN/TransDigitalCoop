@@ -1,6 +1,6 @@
 import "../css/hero.css";
 
-function Header() {
+function Hero() {
   return (
     <>
       <header>
@@ -58,4 +58,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Hero;

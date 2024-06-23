@@ -82,6 +82,7 @@
     padding-right: 30px;
     border-radius: 10px;
     width: auto;
+    height: 390px;
     opacity: 0.82;
 }
 
@@ -96,6 +97,7 @@
     font-size: 14px;
     font-family: sans-serif;
     color: white;
+    padding-bottom: 0px;
 }
 
 form {
