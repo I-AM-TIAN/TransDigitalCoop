@@ -6,6 +6,7 @@
 }
 
 h1 {
+    padding-top: 20px;
     text-align: center;
     font-family: 'Cascadia Code', monospace;
     color: #45a049;
@@ -14,12 +15,13 @@ h1 {
 p {
     text-align: center;
     font-family: sans-serif;
+    padding-bottom: 20px;
 }
 
 .plans {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    padding-bottom: 30px;
 }
 
 .plan {

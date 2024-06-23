@@ -43,8 +43,8 @@ function Header() {
                 <option value="" disabled selected>
                   Ocupación
                 </option>
-                <option value="opcion1">Opción 1</option>
-                <option value="opcion2">Opción 2</option>
+                <option value="opcion1">Empleado</option>
+                <option value="opcion2">Estudiante</option>
               </select>
               <p>
                 Deja tus datos y uno de nuestros asesores se contactará contigo.
