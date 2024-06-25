@@ -27,7 +27,7 @@ function Hero() {
           <div className="left-section">
             <h1>Bienvenid@ a TransDigitalCoop</h1>
             <p>
-              Atrevete a dar el paso que necesita tu organización hacia la transformación digital.
+              Atrévete a dar el paso que necesita tu organización hacia la transformación digital.
             </p>
           </div>
           <div className="right-section">
@@ -43,7 +43,7 @@ function Hero() {
                 <option value="" disabled selected>
                   Ocupación
                 </option>
-                <option value="opcion1">Empleado</option>
+                <option value="opcion1" selected>Empleado</option>
                 <option value="opcion2">Estudiante</option>
               </select>
               <p>
