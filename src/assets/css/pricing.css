@@ -14,7 +14,7 @@
     left: 0;
     width: 1500px; /* Ajusta según sea necesario */
     height: 500px; /* Ajusta según sea necesario */
-    background: url('/puntos\ abajo\ izquierdda.svg') no-repeat;
+    background: url('/puntos_abajo_izquierdda.svg') no-repeat;
     background-size: contain; /* Ajusta el tamaño de la imagen */
     z-index: -1;
     opacity: 0.3;
@@ -27,7 +27,7 @@
     right: 0;
     width: 1500px; /* Ajusta según sea necesario */
     height: 1500px; /* Ajusta según sea necesario */
-    background: url('/puntos\ arriba\ derecha.svg') no-repeat;
+    background: url('/puntos_arriba_derecha.svg') no-repeat;
     background-size: contain; /* Ajusta el tamaño de la imagen */
     z-index: -1;
     opacity: 0.3;
