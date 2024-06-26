@@ -155,31 +155,21 @@ button:hover {
 Transiciones en el hero
 */
 
-/* hero.css */
 .container {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.left-section,
-.right-section {
-  transition: transform 2s ease, opacity 2s ease;
-}
-
-.left-section {
-  transform: translateX(-50px);
-  opacity: 0;
-}
-
-.right-section {
-  transform: translateX(50px);
-  opacity: 0;
-}
-
-/* Cuando la página cargue */
-.container.appear .left-section,
-.container.appear .right-section {
-  transform: translateX(0);
-  opacity: 1;
-}
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-section, .right-section {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+  .container.appear .left-section,
+  .container.appear .right-section {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  

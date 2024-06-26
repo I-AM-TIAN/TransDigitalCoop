@@ -1,10 +1,12 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "../css/hero.css";
 
 function Hero() {
+  const [isVisible, setIsVisible] = useState(false);
+
   useEffect(() => {
-    const container = document.querySelector('.container');
-    container.classList.add('appear');
+    // Simulación de carga o evento que activa la visibilidad
+    setIsVisible(true);
   }, []);
 
   return (
@@ -29,7 +31,7 @@ function Hero() {
             </li>
           </ul>
         </nav>
-        <div className="container">
+        <div className={`container ${isVisible ? 'appear' : ''}`}>
           <div className="left-section">
             <h1>Bienvenid@ a TransDigitalCoop</h1>
             <p>Atrévete a dar el paso que necesita tu organización hacia la transformación digital.</p>
