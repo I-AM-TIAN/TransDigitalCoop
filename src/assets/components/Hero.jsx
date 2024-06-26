@@ -38,7 +38,7 @@ function Hero() {
                 <input type="text" placeholder="Apellido" required />
               </div>
               <input type="email" placeholder="Correo electrónico" required />
-              <input type="tel" placeholder="Celular" required />
+              <input type="number" placeholder="Celular" required />
               <select required>
                 <option value="" disabled selected>
                   Ocupación

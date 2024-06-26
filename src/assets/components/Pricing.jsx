@@ -39,7 +39,7 @@ function Pricing() {
                 electrónico de productos y servicios)
               </li>
             </ul>
-            <button className="boton">¡Botón!</button>
+            <button className="boton">¡Adquirir!</button>
           </div>
           <div className="plan">
             <h2>Básico</h2>
@@ -73,7 +73,7 @@ function Pricing() {
                 electrónico de productos y servicios)
               </li>
             </ul>
-            <button className="boton">¡Botón!</button>
+            <button className="boton">¡Adquirir!</button>
           </div>
           <div className="plan">
             <h2>Premium</h2>
@@ -107,7 +107,7 @@ function Pricing() {
                 electrónico de productos y servicios)
               </li>
             </ul>
-            <button className="boton">¡Botón!</button>
+            <button className="boton">¡Adquirir!</button>
           </div>
         </div>
       </div>
