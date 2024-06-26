@@ -72,9 +72,10 @@
 }
 
 .left-section p {
-    font-size: 25px;
+    font-size: 27px;
     color: #52A45A;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .right-section {
