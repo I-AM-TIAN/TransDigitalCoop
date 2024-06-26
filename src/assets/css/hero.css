@@ -149,3 +149,36 @@ button {
 button:hover {
     background-color: #52A45A;
 }
+
+/*
+Transiciones en el hero
+*/
+
+/* hero.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-section, .right-section {
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+  .left-section {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  
+  .right-section {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  
+  /* Cuando la página cargue */
+  .container.appear .left-section,
+  .container.appear .right-section {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  

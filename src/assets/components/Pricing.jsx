@@ -3,7 +3,7 @@ import "../css/pricing.css";
 function Pricing() {
   return (
     <>
-      <div className="pricing-section">
+      <div className="pricing-section" id="#pricing">
         <h1>Planes y Precios</h1>
         <p>¡Nos ajustamos a tus necesidades!</p>
         <div className="plans">

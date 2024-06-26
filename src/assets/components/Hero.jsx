@@ -1,6 +1,12 @@
+import { useEffect } from "react";
 import "../css/hero.css";
 
 function Hero() {
+  useEffect(() => {
+    const container = document.querySelector('.container');
+    container.classList.add('appear');
+  }, []);
+
   return (
     <>
       <header>
@@ -16,7 +22,7 @@ function Hero() {
               <a href="">Nosotros</a>
             </li>
             <li className="list_item">
-              <a href="">Planes y Precios</a>
+              <a href="#pricing">Planes y Precios</a>
             </li>
             <li className="list_item">
               <a href="">Contáctanos</a>
@@ -26,9 +32,7 @@ function Hero() {
         <div className="container">
           <div className="left-section">
             <h1>Bienvenid@ a TransDigitalCoop</h1>
-            <p>
-              Atrévete a dar el paso que necesita tu organización hacia la transformación digital.
-            </p>
+            <p>Atrévete a dar el paso que necesita tu organización hacia la transformación digital.</p>
           </div>
           <div className="right-section">
             <h2>¿Quieres que te contactemos?</h2>
@@ -40,15 +44,11 @@ function Hero() {
               <input type="email" placeholder="Correo electrónico" required />
               <input type="number" placeholder="Celular" required />
               <select required>
-                <option value="" disabled selected>
-                  Ocupación
-                </option>
+                <option value="" disabled selected>Ocupación</option>
                 <option value="opcion1" selected>Empleado</option>
                 <option value="opcion2">Estudiante</option>
               </select>
-              <p>
-                Deja tus datos y uno de nuestros asesores se contactará contigo.
-              </p>
+              <p>Deja tus datos y uno de nuestros asesores se contactará contigo.</p>
               <button type="submit">Enviar</button>
             </form>
           </div>
