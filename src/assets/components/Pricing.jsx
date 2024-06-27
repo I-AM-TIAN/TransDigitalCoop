@@ -19,7 +19,7 @@ function Pricing() {
                 <span className="check">✔</span>Curso básico de asociatividad
                 empresarial en entornos digitales
               </li>
-              <li className="unchecked" >
+              <li className="unchecked">
                 <span className="check">✔</span>Diagnostico madurez de
                 transformación digital
               </li>
@@ -110,6 +110,22 @@ function Pricing() {
             <button className="boton">¡Adquirir!</button>
           </div>
         </div>
+      </div>
+      
+      <div className="benefits-section">
+        <h2>Para obtener beneficios Premium+ como:</h2>
+        <div className="benefits">
+          <div className="benefit">
+            <p>Consultoría especializada</p>
+          </div>
+          <div className="benefit">
+            <p>Diseño de hojas de ruta hacia la transformación digital</p>
+          </div>
+          <div className="benefit">
+            <p>Implementación de sistemas inteligentes</p>
+          </div>
+        </div>
+        <button id="contact-button">¡Contacte con nosotros!</button>
       </div>
     </>
   );

@@ -116,3 +116,43 @@ ul li {
 button:hover {
     background-color: #45a049;
 }
+
+.benefits-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #4DA15A, #3896B4);
+    color: white;
+}
+
+.benefits-section h2 {
+    font-family: 'Cascadia Code', monospace;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.benefit {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.benefit p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#contact-button {
+    font-family: 'Cascadia Code', monospace;
+    background-color: white;
+    color: #00AFC4;
+    border: none;
+    width: 280px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
