@@ -47,7 +47,7 @@ function Hero() {
               <input type="number" placeholder="Celular" required />
               <select required>
                 <option value="" disabled selected>Ocupación</option>
-                <option value="opcion1" selected>Empleado</option>
+                <option value="opcion1">Empleado</option>
                 <option value="opcion2">Estudiante</option>
               </select>
               <p>Deja tus datos y uno de nuestros asesores se contactará contigo.</p>
