@@ -1,13 +1,18 @@
-import Hero from "./assets/components/Hero";
-import Pricing from "./assets/components/Pricing";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./assets/components/Home";
 
 function App() {
   return (
     <>
-      <Hero />
-      <Pricing />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

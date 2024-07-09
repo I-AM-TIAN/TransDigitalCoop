@@ -1,0 +1,50 @@
+/* TransDigitalCoop.css */
+.transdigitalcoop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    background-color: #093F51;
+    color: white;
+}
+
+.transdigitalcoop-text {
+    max-width: 40%;
+}
+
+.transdigitalcoop-text h1 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.transdigitalcoop-text p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.info-button {
+    padding: 10px 20px;
+    background-color: #00a8b5;
+    margin-left: 25%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Cascadia Code', monospace;
+    font-size: 1em;
+    border-radius: 5px;
+    width: auto;
+    transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #008c95;
+}
+
+.transdigitalcoop-image img {
+    max-width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
