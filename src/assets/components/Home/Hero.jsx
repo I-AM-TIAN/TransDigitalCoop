@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Navbar from "./Navbar.jsx";
 import "../../css/hero.css";
 
 function Hero() {

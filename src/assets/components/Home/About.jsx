@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="transdigitalcoop">
             <div className="transdigitalcoop-text">
-                <h1>¿Quiénes forman TransDigitalCoop?</h1>
+                <h1>¿Quiénes conforman TransDigitalCoop?</h1>
                 <p>Descubra más sobre nosotros y nuestros objetivos.</p>
                 <button className="info-button">Más información</button>
             </div>
