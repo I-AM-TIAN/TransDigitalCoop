@@ -1,0 +1,108 @@
+/* Estilos generales para la navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  list-style: none;
+  margin: 0;
+  gap: 70px; /* Aumenta el espacio entre los elementos */
+}
+
+/* Estilos para los enlaces de la navbar */
+.navbar a {
+  font-family: "Cascadia Code", monospace;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #52a45a;
+}
+
+/* Estilos para el logo */
+.logo img {
+  width: 303px;
+}
+
+/* Estilos para el icono de menú */
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Estilos para el menú desplegable */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Mantener el espacio entre los elementos */
+}
+
+/* Media Queries para responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px; /* Ajustar el padding para pantallas pequeñas */
+    gap: 10px; /* Reducir el espacio entre elementos para pantallas pequeñas */
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    gap: 10px; /* Reducir el espacio entre elementos en el menú desplegable */
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .list_item {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu{
+    z-index: 9;
+    background-color: transparent ;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  .navbar {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .list_item {
+    padding: 5px 0;
+  }
+}

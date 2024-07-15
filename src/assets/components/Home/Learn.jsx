@@ -11,7 +11,7 @@ function Learn() {
             <button>Ver ahora</button>
           </div>
           <div className="image-container-learn">
-            <img src="/muñeco.png" alt="Aprende con TransDigital" />
+            <img src="/muñeco.png" alt="Aprende con TransDigitalCoop" />
           </div>
         </div>
       </div>

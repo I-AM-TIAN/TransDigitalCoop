@@ -157,3 +157,13 @@ button:hover {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .pricing-section{
+        display: none;
+    }
+
+    .benefits-section{
+        display: none;
+    }
+  }
