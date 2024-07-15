@@ -54,7 +54,7 @@
   .menu {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     background-color: #fff;
     position: absolute;
     top: 60px;

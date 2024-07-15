@@ -70,9 +70,19 @@
     height: 30vh;
     padding: 20px;
     width: 80%;
+    background-image: none;
   }
   .text-container-learn h1 {
+    margin-left: 0;
     font-size: 2em;
+  }
+
+  .text-container-learn p{
+    font-size: 1em;
+  }
+
+  .text-container-learn button{
+    margin-left: 17%;
   }
 
   .image-container-learn{
