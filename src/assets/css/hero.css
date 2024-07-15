@@ -158,7 +158,7 @@ Transiciones en el hero
     font-size: 1em;
   }
   .container::before{
-    top: 300px;
+    top: 200px;
     background-size: 100%;
   }
 
