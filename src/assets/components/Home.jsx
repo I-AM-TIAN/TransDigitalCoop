@@ -9,8 +9,8 @@ function Home() {
     <>
       <Navbar />
       <Hero />
-      <Pricing />
       <Learn />
+      <Pricing />
     </>
   );
 }

@@ -42,7 +42,7 @@
   margin-bottom: 20px;
 }
 
-.text-container-learn button {
+.text-container-learn a {
   background-color: #00afc4;
   color: #fff;
   border: none;
@@ -52,7 +52,8 @@
   font-family: "Cascadida Code", monospace;
   font-size: 1rem;
   width: 190px;
-  margin-left: 25%;
+  margin-left: 40%;
+  text-decoration: none;
 }
 
 .image-container-learn {
@@ -81,8 +82,8 @@
     font-size: 1em;
   }
 
-  .text-container-learn button{
-    margin-left: 17%;
+  .text-container-learn a{
+    margin-left: 30%;
   }
 
   .image-container-learn{

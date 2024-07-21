@@ -13,7 +13,7 @@ function Navbar() {
       <nav>
         <ul className="navbar">
           <li className="logo">
-            <a href="">
+            <a href="/">
               <img src="/tdc.png" alt="Logo" />
             </a>
           </li>
@@ -22,7 +22,7 @@ function Navbar() {
           </li>
           <div className={`menu ${menuOpen ? "open" : ""}`}>
             <li className="list_item">
-              <a href="">Inicio</a>
+              <a href="/">Inicio</a>
             </li>
             <li className="list_item">
               <a href="">Nosotros</a>
@@ -34,7 +34,7 @@ function Navbar() {
               <a href="">Contáctanos</a>
             </li>
             <li className="list_item">
-              <a href="">Guías</a>
+              <a href="/guias">Guías</a>
             </li>
           </div>
         </ul>

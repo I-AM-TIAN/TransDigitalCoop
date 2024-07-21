@@ -8,14 +8,13 @@ function Learn() {
           <div className="text-container-learn">
             <h1>¡Aprende con TransDigitalCoop!</h1>
             <p>Descarga ya nuestras guías y aprende con nosotros.</p>
-            <button>Ver ahora</button>
+            <a href="/guias">Ver Ahora</a>
           </div>
           <div className="image-container-learn">
             <img src="/muñeco.png" alt="Aprende con TransDigitalCoop" />
           </div>
         </div>
       </div>
-      ;
     </>
   );
 }

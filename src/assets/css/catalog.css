@@ -1,0 +1,55 @@
+.learning-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.learning-container h1 {
+  font-family: 'Cascadia Code', monospace;
+  color: #388e3c;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-family: "Cascadia Code", monospace;
+  color: #00695c;
+}
+
+.card p {
+  font-family: "Cascadia Code", monospace;
+  color: #00796b;
+}
+
+.card button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  font-family: 'Cascadia Code', monospace;
+}
+
+.card button:hover {
+  background-color: #0097a7;
+}
