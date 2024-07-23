@@ -86,7 +86,7 @@
 @media (max-width: 480px) {
   .menu{
     z-index: 9;
-    background-color: transparent ;
+    background-color: #fff ;
   }
 
   .logo img {
