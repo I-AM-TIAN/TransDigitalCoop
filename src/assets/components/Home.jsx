@@ -4,6 +4,7 @@ import Pricing from "./Home/Pricing";
 import About from "./Home/About";
 import Learn from "./Home/Learn";
 import Footer from "./Home/Footer";
+import Services from "./Home/Services";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Learn />
+      <Services />
       <Pricing />
       <Footer />
     </>

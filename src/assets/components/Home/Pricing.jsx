@@ -113,7 +113,7 @@ function Pricing() {
       </div>
       
       <div className="benefits-section">
-        <h2>Para obtener beneficios Premium+ como:</h2>
+        <h2 className="title-benefits">Para obtener beneficios Premium+ como:</h2>
         <div className="benefits">
           <div className="benefit">
             <p>Consultoría especializada</p>

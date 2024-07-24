@@ -4,6 +4,8 @@
     padding: 20px 0;
     text-align: center;
     color: black; /* Texto blanco para mejor contraste */
+    margin-top: 20px;
+    border-top: 2px solid #52a45a;
   }
   
   .footer a {
@@ -38,6 +40,10 @@
     margin: 0 10px;
     color: black; /* Color de iconos similar a los utilizados en la página */
     font-size: 20px;
+  }
+
+  .social-icons a:hover{
+    color: #52a45a;
   }
   
   .footer p {
