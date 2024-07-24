@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 
-const DownloadForm = ({ pdfUrl }) => {
+Modal.setAppElement('#root');
+
+const DownloadForm = ({ pdfUrl, title }) => {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -26,20 +28,19 @@ const DownloadForm = ({ pdfUrl }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Enviar los datos al backend
-    const response = await fetch('/api/guardar-informacion', {
+
+    const response = await fetch('http://localhost:5000/api/guardar-informacion', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify(formData)
     });
 
     if (response.ok) {
-      // Descargar el PDF
       const link = document.createElement('a');
       link.href = pdfUrl;
-      link.setAttribute('download', 'Guia.pdf'); // Nombre del archivo PDF
+      link.setAttribute('download', `${title}.pdf`);
       document.body.appendChild(link);
       link.click();
       link.parentNode.removeChild(link);

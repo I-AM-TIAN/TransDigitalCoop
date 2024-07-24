@@ -25,7 +25,7 @@ function Navbar() {
               <a href="/">Inicio</a>
             </li>
             <li className="list_item">
-              <a href="">Nosotros</a>
+              <a href="/nosotros">Nosotros</a>
             </li>
             <li className="list_item">
               <a href="#pricing">Planes y Precios</a>
