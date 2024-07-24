@@ -3,6 +3,7 @@ import Navbar from "./Home/Navbar";
 import Pricing from "./Home/Pricing";
 import About from "./Home/About";
 import Learn from "./Home/Learn";
+import Footer from "./Home/Footer";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <Learn />
       <Pricing />
+      <Footer />
     </>
   );
 }

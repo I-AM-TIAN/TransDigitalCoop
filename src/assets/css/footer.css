@@ -1,0 +1,48 @@
+.footer {
+    background-color: white;
+    font-family: 'Cascadia Code', monospace;
+    padding: 20px 0;
+    text-align: center;
+    color: black; /* Texto blanco para mejor contraste */
+  }
+  
+  .footer a {
+    color: black; /* Color de enlaces similar a los utilizados en la página */
+    text-decoration: none;
+    font-family: 'Cascadia Code', monospace;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .footer-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /* Utiliza flexbox para los enlaces */
+    justify-content: flex-end; /* Alinea los enlaces a la derecha */
+    flex-grow: 1; /* Permite que los enlaces ocupen todo el espacio disponible */
+  }
+  
+  .footer .footer-links li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: black; /* Color de iconos similar a los utilizados en la página */
+    font-size: 20px;
+  }
+  
+  .footer p {
+    margin: 10px 0 0; 
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    font-family: 'Cascadia Code', monospace;
+  }
+  

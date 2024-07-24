@@ -4,6 +4,7 @@ import Navbar from './Home/Navbar';
 import image1 from '/transdigitalcoop2.jpg';
 import image2 from '/image.png';
 import image3 from '/equipotdc.jpg';
+import Footer from './Home/Footer';
 
 
 const AboutUs = () => {
@@ -45,6 +46,7 @@ const AboutUs = () => {
         </div>
       </section>
     </div>
+    <Footer />
     </>
   );
 };
