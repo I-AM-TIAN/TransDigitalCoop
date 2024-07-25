@@ -39,7 +39,7 @@
   color: #00796b;
 }
 
-.card button {
+.card a {
   background-color: #00bcd4;
   color: white;
   border: none;
@@ -48,8 +48,9 @@
   cursor: pointer;
   width: 200px;
   font-family: 'Cascadia Code', monospace;
+  text-decoration: none;
 }
 
-.card button:hover {
-  background-color: #0097a7;
+.card a:hover {
+  background-color: #3e8e41;
 }
