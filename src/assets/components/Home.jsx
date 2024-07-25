@@ -13,7 +13,6 @@ function Home() {
       <Hero />
       <Learn />
       <Services />
-      <Pricing />
       <Footer />
     </>
   );
