@@ -15,13 +15,14 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.tdc-section h2 {
+.tdc-title{
   font-family: 'Cascadia Code', monospace;
   font-size: 32px;
   color: #388e3c;
   margin-bottom: 20px;
   border-bottom: 2px solid #388e3c;;
   padding-bottom: 10px;
+  text-align: left;
 }
 
 .tdc-content {

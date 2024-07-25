@@ -14,7 +14,7 @@ const AboutUs = () => {
     
     <div className="tdc-container">
       <section className="tdc-section">
-        <h2>¿Quiénes somos?</h2>
+        <h2 className='tdc-title'>¿Quiénes somos?</h2>
         <div className="tdc-content">
           <p>
             La Cooperativa TransDigitalCoop, desarrollada por estudiantes, profesores y egresados de la Universidad Cooperativa de Colombia en Montería, surge como respuesta a la necesidad de transformación digital en el sector de la economía solidaria y cooperativa. A través de la integración de tecnologías digitales y la promoción de la asociatividad empresarial, busca mejorar la competitividad, productividad y rentabilidad de las organizaciones solidarias.
@@ -24,7 +24,7 @@ const AboutUs = () => {
       </section>
       
       <section className="tdc-section">
-        <h2>Nuestra misión</h2>
+        <h2 className='tdc-title'>Nuestra misión</h2>
         <div className="tdc-content">
           <img src={image1} alt="Misión TransDigitalCoop" />
           <p>
@@ -34,7 +34,7 @@ const AboutUs = () => {
       </section>
       
       <section className="tdc-section">
-        <h2>Enfoque</h2>
+        <h2 className='tdc-title'>Enfoque</h2>
         <div className="tdc-content">
           <p>
             TransDigitalCoop es reconocido por su equipo joven con habilidades emprendedoras y valores cooperativos, centrado en alcanzar los Objetivos de Desarrollo Sostenible, especialmente el crecimiento socioeconómico y trabajo decente. Su enfoque se basa en integrar la transformación digital en todas las esferas organizativas y conectar redes de asociatividad entre emprendimientos cooperativos y comunidades de práctica. Con alianzas estratégicas, su visión es impulsar la transformación digital en las Organizaciones de Economía Social y Solidaria, mientras su visión es convertirse en líderes reconocidos en el campo, ofreciendo soluciones innovadoras y eficientes que generen valor para sus clientes. <br />

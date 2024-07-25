@@ -10,13 +10,13 @@ const services = [
   },
   {
     name: "RedssApp",
-    image: "/redssappserv.png",
+    image: "/RedssAppSER.png",
     description: "Red de Integración Económica Digital de las Organizaciones Solidarias en Córdoba.",
   },
   {
-    name: "Servicio 3",
-    image: "ruta-a-imagen-3.jpg",
-    description: "Descripción del Servicio 3.",
+    name: "Transformación Digital",
+    image: "/Group.png",
+    description: "Modelo de incorporación de las TIC para ayudar a las MiPymes a transformarse digitalmente.",
   },
 ];
 
