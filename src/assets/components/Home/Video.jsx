@@ -6,9 +6,13 @@ const Video = () => {
   return (
     <div className="video-container">
       <h2>¿Quienes somos?</h2>
-      <video src={video} controls>
-        <source src="https://youtu.be/JdF8NPlXpKI" type="video/mp4"/>
-      </video>
+      <iframe
+        src="https://www.youtube.com/embed/JdF8NPlXpKI"
+        title="TransDigitalCoop Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
       <a href="/nosotros">Conoce más aquí</a>
     </div>
   )

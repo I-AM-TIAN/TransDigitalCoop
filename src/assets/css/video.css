@@ -12,9 +12,9 @@ h2 {
   flex-direction: column;
 }
 
-.video-container video {
-  width: 65%; /* ajusta el ancho del video */
-  height: auto; /* ajusta la altura del video */
+.video-container iframe {
+  width: 800px; /* ajusta el ancho del video */
+  height: 500px; /* ajusta la altura del video */
   margin: 20px; /* agrega un margen alrededor del video */
 }
 
@@ -37,7 +37,8 @@ h2 {
 
 
 @media (max-width: 480px) {
-    .video-container video{
-        width: 100%;
+    .video-container iframe{
+        height: 300px;
+        width: 80%;
     }
 }
