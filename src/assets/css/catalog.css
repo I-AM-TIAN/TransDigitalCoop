@@ -6,6 +6,7 @@
 .learning-container h1 {
   font-family: 'Cascadia Code', monospace;
   color: #388e3c;
+  font-size: 3rem;
 }
 
 .cards {
@@ -32,6 +33,7 @@
 .card h2 {
   font-family: "Cascadia Code", monospace;
   color: #00695c;
+  font-size: 2rem;
 }
 
 .card p {

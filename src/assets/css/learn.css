@@ -31,7 +31,7 @@
   max-width: 500px; /* Ajusta el ancho máximo si es necesario */
 }
 
-.text-container-learn h1 {
+.text-container-learn h2 {
   font-size: 3rem;
   margin-bottom: 20px;
 }
@@ -73,7 +73,7 @@
     width: 80%;
     background-image: none;
   }
-  .text-container-learn h1 {
+  .text-container-learn h2 {
     margin-left: 0;
     font-size: 2em;
   }

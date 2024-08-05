@@ -5,6 +5,7 @@ import About from "./Home/About";
 import Learn from "./Home/Learn";
 import Footer from "./Home/Footer";
 import Services from "./Home/Services";
+import Video from "./Home/Video";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Learn />
+      <Video />
       <Services />
       <Footer />
     </>

@@ -1,0 +1,43 @@
+h2 {
+  font-family: "Cascadia Code", monospace;
+  color: #388e3c;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-container video {
+  width: 65%; /* ajusta el ancho del video */
+  height: auto; /* ajusta la altura del video */
+  margin: 20px; /* agrega un margen alrededor del video */
+}
+
+.video-container a{
+    background-color: #00afc4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Cascadida Code", monospace;
+    font-size: 1.2rem;
+    width: auto;
+    text-decoration: none;
+}
+
+.video-container a:hover{
+    background-color: #388e3c;
+}
+
+
+@media (max-width: 480px) {
+    .video-container video{
+        width: 100%;
+    }
+}

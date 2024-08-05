@@ -6,7 +6,7 @@ function Learn() {
       <div className="container-learn">
         <div className="content-learn">
           <div className="text-container-learn">
-            <h1>¡Aprende con TransDigitalCoop!</h1>
+            <h2>¡Aprende con TransDigitalCoop!</h2>
             <p>Descarga ya nuestras guías y aprende con nosotros.</p>
             <a href="/guias">Ver Ahora</a>
           </div>
