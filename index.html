@@ -31,5 +31,22 @@
 
       gtag("config", "G-8TTYWSVYZ6");
     </script>
+
+    <script type="text/javascript">
+      (function (d, t) {
+        var v = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        v.onload = function () {
+          window.voiceflow.chat.load({
+            verify: { projectID: "66b52cc6c8bde5b817c9a51f" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+          });
+        };
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+      })(document, "script");
+    </script>
   </body>
 </html>
