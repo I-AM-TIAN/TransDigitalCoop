@@ -56,6 +56,10 @@
   text-decoration: none;
 }
 
+.text-container-learn a:hover{
+  background-color: #3a9742;
+}
+
 .image-container-learn {
   max-width: 550px; /* Ajusta el ancho máximo si es necesario */
 }

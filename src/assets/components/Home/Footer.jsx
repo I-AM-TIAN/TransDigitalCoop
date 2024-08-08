@@ -11,11 +11,11 @@ const Footer = () => {
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-facebook-f"></i>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-twitter"></i>
+        <a href="https://www.youtube.com/channel/UC8pUqx0B6hlhcfHdoDNb2LA" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-youtube"></i>
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin-in"></i>
+        <a href="https://www.instagram.com/transdigitalcoop?igsh=c3R4ZzFrNHNmaGVq" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-instagram"></i>
         </a>
       </div>
     </footer>

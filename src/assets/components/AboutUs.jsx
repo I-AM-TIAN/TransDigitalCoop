@@ -2,8 +2,8 @@ import React from "react";
 import "../css/aboutus.css";
 import Navbar from "./Home/Navbar";
 import image1 from "/transdigitalcoop2.jpg";
-import image2 from "/image.png";
-import image3 from "/equipotdc.jpg";
+import image2 from "/transdigital.jpg";
+import image3 from "/evento.jpg";
 import Footer from "./Home/Footer";
 
 const AboutUs = () => {
