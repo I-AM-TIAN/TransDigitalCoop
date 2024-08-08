@@ -10,11 +10,12 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
 .video-container iframe {
-  width: 800px; /* ajusta el ancho del video */
-  height: 500px; /* ajusta la altura del video */
+  width: 80%; /* ajusta el ancho del video */
+  height: 90%; /* ajusta la altura del video */
   margin: 20px; /* agrega un margen alrededor del video */
 }
 
