@@ -71,27 +71,26 @@
 
 @media (max-width: 480px) {
   .container-learn {
-    margin-left: 5%;
+    margin: auto;
     height: 30vh;
     padding: 20px;
-    width: 80%;
-    background-image: none;
+    width: 92%;
+    align-items: center;
   }
 
   .text-container-learn-title{
-    margin-left: 0;
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .text-container-learn p{
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .text-container-learn a{
     margin-left: 30%;
   }
 
-  .image-container-learn{
-    display: none;
+  .image-container-learn img {
+    height: 190px;
   }
 }
