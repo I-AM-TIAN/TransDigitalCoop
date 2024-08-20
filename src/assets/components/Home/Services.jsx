@@ -14,7 +14,7 @@ const services = [
     description: "Red de Integración Económica Digital de las Organizaciones Solidarias en Córdoba.",
   },
   {
-    name: "Transformación Digital",
+    name: "Modelo TIC",
     image: "/Group.png",
     description: "Modelo de incorporación de las TIC para ayudar a las MiPymes a transformarse digitalmente.",
   },
