@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './Home/Navbar';
-import Catalog from './Guides/Catalog';
 import Footer from './Home/Footer';
+import Rutas from './Guides/Rutas';
 
 const Guides = () => {
   return (
     <>
         <Navbar />
-        <Catalog />
+        <Rutas />
         <Footer />
     </>
   )

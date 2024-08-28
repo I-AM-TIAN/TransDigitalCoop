@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.line{
+    border: 2px solid #3A9742;
+    margin: 0 70px;
+}
+
+.rutas{
+    height: 60vh;
+}
+
+.ruta{
+    margin-left: 150px;
+    margin-top: 80px;
+    width: 230px;
+}
+
+.ruta img{
+    margin-left: 13px;
+}
+
+.ruta h2{
+    font-size: 28px;
+    color: #00AFC4;
+}
+
+@media (max-width: 480px) {
+    .line{
+        margin: 0 10px;
+    }
+
+    .ruta{
+        margin: 40px auto;
+    }
+}

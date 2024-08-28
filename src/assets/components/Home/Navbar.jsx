@@ -34,7 +34,7 @@ function Navbar() {
               <a href="">Contáctanos</a>
             </li>
             <li className="list_item">
-              <a href="/guias">Guías</a>
+              <a href="/rutas-de-aprendizaje">Rutas de aprendizaje</a>
             </li>
           </div>
         </ul>

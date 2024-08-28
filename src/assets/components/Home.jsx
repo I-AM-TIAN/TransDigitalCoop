@@ -6,6 +6,7 @@ import Learn from "./Home/Learn";
 import Footer from "./Home/Footer";
 import Services from "./Home/Services";
 import Video from "./Home/Video";
+import '../css/home.css';
 
 function Home() {
   return (

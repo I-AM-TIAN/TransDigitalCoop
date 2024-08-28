@@ -6,6 +6,7 @@
     color: black; /* Texto blanco para mejor contraste */
     margin-top: 20px;
     border-top: 2px solid #52a45a;
+    height: 10vh;
   }
   
   .footer a {
