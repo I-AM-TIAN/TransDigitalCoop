@@ -36,6 +36,9 @@ function Navbar() {
             <li className="list_item">
               <a href="/rutas-de-aprendizaje">Rutas de aprendizaje</a>
             </li>
+            <li className="list_item">
+              <a href="/guias">Guias</a>
+            </li>
           </div>
         </ul>
       </nav>

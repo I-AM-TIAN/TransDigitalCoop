@@ -18,8 +18,8 @@ import '../../css/catalog.css';
 const Catalog = () => {
   return (
     <>
+     <h1>¡Aprende con TransDigitalCoop!</h1>
       <div className="learning-container">
-        <h1>¡Aprende con TransDigitalCoop!</h1>
         <div className="cards">
           <div className="card">
             <img src={mapsImage} alt="MAPS" className="card-image" />
