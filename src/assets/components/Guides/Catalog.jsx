@@ -7,9 +7,11 @@ import mapsImage from '/maps.png';
 import redImage from '/redssapp.png';
 import cadena from '/cadena.png';
 import virtualvent from '/virtualvent.png';
+import territorio from '/territorio.png'
 import cadenaUrl from '/cadenasuministro.pdf';
 import virtualventUrl from '/guiavirtualvent.pdf';
 import transforUrl from '/transformaciondigital.pdf';
+import territoriosUrl from '/Guiadeterritoriosolidario.pdf';
 import mapsUrl from '/googlemaps.pdf';
 import redsUrl from '/redssappguia.pdf';
 import storyUrl from '/storytelling.pdf';
@@ -86,6 +88,18 @@ const Catalog = () => {
               ¿Qué es el comercio electrónico? Mejora tu presencia digital.
             </p>
             <a href={virtualventUrl} download>Descargar</a>
+          </div>
+          <div className="card">
+            <img
+              src={territorio}
+              alt="Territorios solidarios"
+              className="card-image"
+            />
+            <h2>Territorios Solidarios</h2>
+            <p>
+              ¿Qué son territorios solidarios?
+            </p>
+            <a href={territoriosUrl} download>Descargar</a>
           </div>
         </div>
       </div>
