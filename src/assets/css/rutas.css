@@ -29,6 +29,7 @@ a{
 .ruta h2{
     font-size: 28px;
     color: #00AFC4;
+    text-align: center;
 }
 
 @media (max-width: 480px) {

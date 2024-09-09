@@ -1,8 +1,8 @@
-h2 {
+.information {
   font-family: "Cascadia Code", monospace;
   color: #388e3c;
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .video-container {
@@ -41,5 +41,9 @@ h2 {
   }
   .video-container .video-reproductor {
     width: 100%;
+  }
+
+  .information{
+    font-size: 3rem;
   }
 }

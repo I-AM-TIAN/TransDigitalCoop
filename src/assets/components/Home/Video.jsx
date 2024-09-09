@@ -5,7 +5,7 @@ import "../../css/video.css";
 const Video = () => {
   return (
     <div className="video-container">
-      <h2>¿Quienes somos?</h2>
+      <h2 className="information">¿Quienes somos?</h2>
       <div className="video-reproductor">
         <lite-youtube videoid="lpiAgSoD-P8"></lite-youtube>
       </div>

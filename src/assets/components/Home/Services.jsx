@@ -23,7 +23,7 @@ const services = [
 const Services = () => {
   return (
     <>
-      <h2>Nuestros Servicios</h2>
+      <h2 className="services_title">Nuestros Servicios</h2>
       <div className="services-container">
         {services.map((service, index) => (
           <ServiceCard key={index} service={service} />
